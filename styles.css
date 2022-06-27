@@ -1,1 +1,37 @@
-/* Write your CSS here! */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#mainHeading {
+    color: red;
+}
+
+p {
+    margin-bottom: 1.5 em;
+}
+
+#testP {
+    background-color: rgba(255, 228, 196, 0.4);
+    width: auto;
+}
+
+.funParagraph {
+    color: green;
+    text-align: center;
+}
