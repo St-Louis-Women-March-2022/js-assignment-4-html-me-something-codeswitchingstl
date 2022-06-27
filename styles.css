@@ -1,31 +1,48 @@
 body {
-    background-color: ghostwhite;
+    font-size: 14px;
+    color: black;
     margin: 8px;
     padding: 0px;
     display: block;
+    overflow-x: hidden;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1400px;
-}
-
-h1 {
-    font-size: 36px;
+header {
+    height: auto;
+    margin: 0px;
+    padding: 5px;
     text-align: center;
 }
 
-h2 {
-    font-size: 24px;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#mainHeading {
-    color: red;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 0;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 0.12 em;
     margin-bottom: 1.5 em;
+}
+
+img {
+    padding: 5px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+/* #id  selector */
+#mainHeading {
+    color: red;
 }
 
 #testP {
@@ -33,7 +50,24 @@ p {
     width: auto;
 }
 
+/* class selectors */
 .funParagraph {
     color: green;
     text-align: center;
+    margin-top: 40px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.textWrapRight {
+    float: right;
+    margin: 10px;
+}
+
+.textWrapLeft {
+    float: left;
+    margin: 10px;
 }
